@@ -10,73 +10,87 @@
     <div class="container">
         <header>
             <div class="header-content">
-                <div>
-                    <h1>Thomas Ernest</h1>
-                    <p class="tagline">Welcome to my corner of the internet</p>
+                <div class="title-section">
+                    <h1 data-i18n="title">Thomas Ernest</h1>
+                    <p class="tagline" data-i18n="tagline">Welcome to my corner of the internet</p>
                 </div>
-                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-                    <span class="theme-icon">🌙</span>
-                </button>
+                <div class="header-controls">
+                    <div class="language-selector">
+                        <button class="language-toggle" id="languageToggle" aria-label="Select language">
+                            <span class="flag">🌍</span>
+                            <span class="language-code">EN</span>
+                        </button>
+                        <div class="language-menu" id="languageMenu">
+                            <button class="lang-option" data-lang="en">🇬🇧 English</button>
+                            <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
+                            <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
+                            <button class="lang-option" data-lang="es">🇪🇸 Español</button>
+                            <button class="lang-option" data-lang="it">🇮🇹 Italiano</button>
+                            <button class="lang-option" data-lang="pl">🇵🇱 Polski</button>
+                            <button class="lang-option" data-lang="ro">🇷🇴 Română</button>
+                        </div>
+                    </div>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                        <span class="toggle-circle"></span>
+                    </button>
+                </div>
             </div>
         </header>
 
         <main>
             <!-- About Me Section -->
             <section class="about">
-                <h2>About Me</h2>
-                <p>Hi! I'm Thomas Ernest. I'm passionate about technology, learning, and sharing knowledge with the community. Welcome to my personal space!</p>
+                <h2 data-i18n="about_title">About Me</h2>
+                <p data-i18n="about_content">Hi! I'm Thomas Ernest. I'm passionate about technology, learning, and sharing knowledge with the community. Welcome to my personal space!</p>
             </section>
 
             <!-- Donate Section -->
             <section class="donate">
-                <h2>Support My Work</h2>
-                <p class="donate-intro">If you find my work valuable and would like to support me, here are various ways you can contribute:</p>
+                <h2 data-i18n="support_title">Support My Work</h2>
+                <p class="donate-intro" data-i18n="support_intro">If you find my work valuable and would like to support me, here are various ways you can contribute:</p>
                 
                 <div class="donation-methods">
-                    <!-- Donation Method Template - Reusable Pattern -->
                     <div class="donation-card">
                         <div class="donation-icon">💳</div>
-                        <h3>PayPal</h3>
-                        <p>Support via PayPal</p>
-                        <a href="https://paypal.me/thomasernest" target="_blank" class="donation-button">Donate via PayPal</a>
+                        <h3 data-i18n="paypal_title">PayPal</h3>
+                        <p data-i18n="paypal_desc">Support via PayPal</p>
+                        <a href="https://paypal.me/thomasernest" target="_blank" class="donation-button" data-i18n="donate_button">Donate via PayPal</a>
                     </div>
 
                     <div class="donation-card">
                         <div class="donation-icon">❤️</div>
-                        <h3>GitHub Sponsors</h3>
-                        <p>Become a GitHub Sponsor</p>
-                        <a href="https://github.com/sponsors/thomas-ernest" target="_blank" class="donation-button">Sponsor on GitHub</a>
+                        <h3 data-i18n="github_sponsors_title">GitHub Sponsors</h3>
+                        <p data-i18n="github_sponsors_desc">Become a GitHub Sponsor</p>
+                        <a href="https://github.com/sponsors/thomas-ernest" target="_blank" class="donation-button" data-i18n="sponsor_button">Sponsor on GitHub</a>
                     </div>
 
                     <div class="donation-card">
                         <div class="donation-icon">₿</div>
-                        <h3>Cryptocurrency</h3>
-                        <p>Bitcoin or other crypto</p>
-                        <a href="#crypto-modal" class="donation-button">View Wallet Address</a>
+                        <h3 data-i18n="crypto_title">Cryptocurrency</h3>
+                        <p data-i18n="crypto_desc">Bitcoin or other crypto</p>
+                        <a href="#crypto-modal" class="donation-button" data-i18n="crypto_button">View Wallet Address</a>
                     </div>
 
                     <div class="donation-card">
                         <div class="donation-icon">☕</div>
-                        <h3>Buy Me a Coffee</h3>
-                        <p>Support with a virtual coffee</p>
-                        <a href="https://buymeacoffee.com/thomasernest" target="_blank" class="donation-button">Buy Me a Coffee</a>
+                        <h3 data-i18n="coffee_title">Buy Me a Coffee</h3>
+                        <p data-i18n="coffee_desc">Support with a virtual coffee</p>
+                        <a href="https://buymeacoffee.com/thomasernest" target="_blank" class="donation-button" data-i18n="coffee_button">Buy Me a Coffee</a>
                     </div>
-
-                    <!-- Add more donation methods using the same pattern above -->
                 </div>
             </section>
 
             <!-- Thank You Message -->
             <section class="thank-you">
-                <h2>Thank You! 🙏</h2>
-                <p>Every contribution, no matter the size, means a lot to me. Your support motivates me to continue creating and sharing valuable content with the community.</p>
-                <p>Whether you donate or not, I'm grateful for your presence here. Thank you for being part of my journey!</p>
+                <h2 data-i18n="thank_you_title">Thank You! 🙏</h2>
+                <p data-i18n="thank_you_content1">Every contribution, no matter the size, means a lot to me. Your support motivates me to continue creating and sharing valuable content with the community.</p>
+                <p data-i18n="thank_you_content2">Whether you donate or not, I'm grateful for your presence here. Thank you for being part of my journey!</p>
             </section>
 
             <!-- Contact Section -->
             <section class="contact">
-                <h2>Connect With Me</h2>
-                <p>You can find me on:</p>
+                <h2 data-i18n="connect_title">Connect With Me</h2>
+                <p data-i18n="connect_intro">You can find me on:</p>
                 <ul>
                     <li><a href="https://github.com/thomas-ernest" target="_blank">GitHub</a></li>
                     <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
@@ -86,10 +100,11 @@
         </main>
 
         <footer>
-            <p>&copy; 2026 Thomas Ernest. All rights reserved.</p>
+            <p data-i18n="footer">&copy; 2026 Thomas Ernest. All rights reserved.</p>
         </footer>
     </div>
 
+    <script src="translations.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
