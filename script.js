@@ -87,15 +87,5 @@ function setLanguage(lang) {
 
 function updateLanguageToggleDisplay() {
     const languageCode = currentLanguage.toUpperCase();
-    const flagMap = {
-        'en': '🇬🇧',
-        'fr': '🇫🇷',
-        'de': '🇩🇪',
-        'es': '🇪🇸',
-        'it': '🇮🇹',
-        'pl': '🇵🇱',
-        'ro': '🇷🇴'
-    };
-    const flag = flagMap[currentLanguage] || '🌍';
-    languageToggle.innerHTML = `<span class="flag">${flag}</span><span class="language-code">${languageCode}</span>`;
+    languageToggle.innerHTML = `<span class="language-code">${languageCode}</span>`;
 }
