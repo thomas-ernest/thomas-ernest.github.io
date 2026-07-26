@@ -6,24 +6,32 @@ const translations = {
         about_content: "Hi! I'm Thomas Ernest. I'm passionate about technology, learning, and sharing knowledge with the community. Welcome to my personal space!",
         support_title: 'Support My Work',
         support_intro: 'If you find my work valuable and would like to support me, here are various ways you can contribute:',
-        paypal_title: 'PayPal',
-        paypal_desc: 'Support via PayPal',
-        github_sponsors_title: 'GitHub Sponsors',
-        github_sponsors_desc: 'Become a GitHub Sponsor',
-        crypto_title: 'Cryptocurrency',
-        crypto_desc: 'Bitcoin or other crypto',
-        coffee_title: 'Buy Me a Coffee',
-        coffee_desc: 'Support with a virtual coffee',
-        donate_button: 'Donate via PayPal',
-        sponsor_button: 'Sponsor on GitHub',
-        crypto_button: 'View Wallet Address',
-        coffee_button: 'Buy Me a Coffee',
         thank_you_title: 'Thank You! 🙏',
         thank_you_content1: 'Every contribution, no matter the size, means a lot to me. Your support motivates me to continue creating and sharing valuable content with the community.',
         thank_you_content2: "Whether you donate or not, I'm grateful for your presence here. Thank you for being part of my journey!",
         connect_title: 'Connect With Me',
         connect_intro: 'You can find me on:',
-        footer: '© 2026 Thomas Ernest. All rights reserved.'
+        footer: '© 2026 Thomas Ernest. All rights reserved.',
+        // Paypal
+        paypal_title: 'PayPal',
+        paypal_desc: 'Support via PayPal',
+        paypal_button: 'Donate via PayPal',
+        // Stripe
+        stripe_title: 'Stripe',
+        stripe_desc: 'Support via Stripe',
+        stripe_button: 'Donate via Stripe',
+        // Github sponsor
+        gh_sponsor_title: 'GitHub Sponsors',
+        gh_sponsor_desc: 'Become a GitHub Sponsor',
+        gh_sponsor_button: 'Sponsor on GitHub',
+        // Crypto
+        crypto_title: 'Cryptocurrency',
+        crypto_desc: 'Bitcoin or other crypto',
+        crypto_button: 'View Wallet Address',
+        // Buy me a coffee
+        coffee_title: 'Buy Me a Coffee',
+        coffee_desc: 'Support with a virtual coffee',
+        coffee_button: 'Buy Me a Coffee'
     },
     fr: {
         title: 'Thomas Ernest',
@@ -32,24 +40,32 @@ const translations = {
         about_content: 'Bonjour! Je suis Thomas Ernest. Je suis passionné par la technologie, l\'apprentissage et le partage de connaissances avec la communauté. Bienvenue dans mon espace personnel!',
         support_title: 'Soutenir Mon Travail',
         support_intro: 'Si vous trouvez mon travail précieux et souhaitez me soutenir, voici différentes façons de contribuer:',
-        paypal_title: 'PayPal',
-        paypal_desc: 'Soutien via PayPal',
-        github_sponsors_title: 'Sponsors GitHub',
-        github_sponsors_desc: 'Devenir un Sponsor GitHub',
-        crypto_title: 'Cryptomonnaie',
-        crypto_desc: 'Bitcoin ou autre crypto-monnaie',
-        coffee_title: 'Offrez-moi un Café',
-        coffee_desc: 'Soutien avec un café virtuel',
-        donate_button: 'Donner via PayPal',
-        sponsor_button: 'Sponsoriser sur GitHub',
-        crypto_button: 'Voir l\'Adresse du Portefeuille',
-        coffee_button: 'Offrez-moi un Café',
         thank_you_title: 'Merci! 🙏',
         thank_you_content1: 'Chaque contribution, peu importe la taille, est très importante pour moi. Votre soutien me motive à continuer à créer et à partager du contenu précieux avec la communauté.',
         thank_you_content2: "Que vous donniez ou non, je suis reconnaissant de votre présence ici. Merci de faire partie de mon parcours!",
         connect_title: 'Restez Connecté',
         connect_intro: 'Vous pouvez me trouver sur:',
-        footer: '© 2026 Thomas Ernest. Tous droits réservés.'
+        footer: '© 2026 Thomas Ernest. Tous droits réservés.',
+        // Paypal
+        paypal_title: 'PayPal',
+        paypal_desc: 'Soutien via PayPal',
+        paypal_button: 'Donner via PayPal',
+        // Stripe
+        stripe_title: 'Stripe',
+        stripe_desc: 'Soutien via Stripe',
+        stripe_button: 'Donner via Stripe',
+        // GitHub sponsor
+        gh_sponsor_title: 'Sponsors GitHub',
+        gh_sponsor_desc: 'Devenir un Sponsor GitHub',
+        gh_sponsor_button: 'Sponsoriser sur GitHub',
+        // Crypto
+        crypto_title: 'Cryptomonnaie',
+        crypto_desc: 'Bitcoin ou autre crypto-monnaie',
+        crypto_button: 'Voir l\'Adresse du Portefeuille',
+        // Buy me a coffee
+        coffee_title: 'Offrez-moi un Café',
+        coffee_desc: 'Soutien avec un café virtuel',
+        coffee_button: 'Offrez-moi un Café'
     },
     de: {
         title: 'Thomas Ernest',
@@ -58,24 +74,32 @@ const translations = {
         about_content: 'Hallo! Ich bin Thomas Ernest. Ich bin leidenschaftlich von Technologie, Lernen und dem Austausch von Wissen mit der Gemeinschaft begeistert. Willkommen in meinem persönlichen Raum!',
         support_title: 'Unterstütze Meine Arbeit',
         support_intro: 'Wenn Sie meine Arbeit wertvoll finden und mich unterstützen möchten, gibt es verschiedene Möglichkeiten zu helfen:',
-        paypal_title: 'PayPal',
-        paypal_desc: 'Unterstützung via PayPal',
-        github_sponsors_title: 'GitHub Sponsors',
-        github_sponsors_desc: 'Werde ein GitHub Sponsor',
-        crypto_title: 'Kryptowährung',
-        crypto_desc: 'Bitcoin oder andere Kryptowährungen',
-        coffee_title: 'Kauf mir einen Kaffee',
-        coffee_desc: 'Unterstütze mit einem virtuellen Kaffee',
-        donate_button: 'Spenden via PayPal',
-        sponsor_button: 'Auf GitHub sponsern',
-        crypto_button: 'Wallet-Adresse anzeigen',
-        coffee_button: 'Kauf mir einen Kaffee',
         thank_you_title: 'Danke! 🙏',
         thank_you_content1: 'Jeder Beitrag, egal wie groß, bedeutet mir viel. Ihre Unterstützung motiviert mich, weiterhin wertvollen Inhalt für die Gemeinschaft zu erstellen und zu teilen.',
         thank_you_content2: "Egal ob Sie spenden oder nicht, ich bin dankbar für Ihre Anwesenheit hier. Danke, dass Sie Teil meiner Reise sind!",
         connect_title: 'Bleiben Sie Verbunden',
         connect_intro: 'Sie können mich hier finden:',
-        footer: '© 2026 Thomas Ernest. Alle Rechte vorbehalten.'
+        footer: '© 2026 Thomas Ernest. Alle Rechte vorbehalten.',
+        // Paypal
+        paypal_title: 'PayPal',
+        paypal_desc: 'Unterstützung via PayPal',
+        paypal_button: 'Spenden via PayPal',
+        // Stripe
+        stripe_title: 'Stripe',
+        stripe_desc: 'Unterstützung via Stripe',
+        stripe_button: 'Spenden via Stripe',
+        // GitHub sponsor
+        gh_sponsor_title: 'GitHub Sponsors',
+        gh_sponsor_desc: 'Werde ein GitHub Sponsor',
+        gh_sponsor_button: 'Auf GitHub sponsern',
+        // Crypto
+        crypto_title: 'Kryptowährung',
+        crypto_desc: 'Bitcoin oder andere Kryptowährungen',
+        crypto_button: 'Wallet-Adresse anzeigen',
+        // Buy me a coffee
+        coffee_title: 'Kauf mir einen Kaffee',
+        coffee_desc: 'Unterstütze mit einem virtuellen Kaffee',
+        coffee_button: 'Kauf mir einen Kaffee'
     },
     es: {
         title: 'Thomas Ernest',
@@ -84,24 +108,32 @@ const translations = {
         about_content: '¡Hola! Soy Thomas Ernest. Me apasiona la tecnología, el aprendizaje y compartir conocimientos con la comunidad. ¡Bienvenido a mi espacio personal!',
         support_title: 'Apoya Mi Trabajo',
         support_intro: 'Si encuentras mi trabajo valioso y quieres apoyarme, aquí hay varias formas en que puedes contribuir:',
-        paypal_title: 'PayPal',
-        paypal_desc: 'Apoyo a través de PayPal',
-        github_sponsors_title: 'Patrocinadores de GitHub',
-        github_sponsors_desc: 'Conviértete en un Patrocinador de GitHub',
-        crypto_title: 'Criptomonedas',
-        crypto_desc: 'Bitcoin u otra criptomoneda',
-        coffee_title: 'Cómprame un Café',
-        coffee_desc: 'Apoyo con un café virtual',
-        donate_button: 'Donar a través de PayPal',
-        sponsor_button: 'Patrocinar en GitHub',
-        crypto_button: 'Ver Dirección de Cartera',
-        coffee_button: 'Cómprame un Café',
         thank_you_title: '¡Gracias! 🙏',
         thank_you_content1: 'Cada contribución, sin importar el tamaño, significa mucho para mí. Tu apoyo me motiva a seguir creando y compartiendo contenido valioso con la comunidad.',
         thank_you_content2: "Ya sea que dones o no, estoy agradecido por tu presencia aquí. ¡Gracias por ser parte de mi viaje!",
         connect_title: 'Conéctate Conmigo',
         connect_intro: 'Puedes encontrarme en:',
-        footer: '© 2026 Thomas Ernest. Todos los derechos reservados.'
+        footer: '© 2026 Thomas Ernest. Todos los derechos reservados.',
+        // Paypal
+        paypal_title: 'PayPal',
+        paypal_desc: 'Apoyo a través de PayPal',
+        paypal_button: 'Donar a través de PayPal',
+        // Stripe
+        stripe_title: 'Stripe',
+        stripe_desc: 'Apoyo a través de Stripe',
+        stripe_button: 'Donar a través de Stripe',
+        // Github sponsor
+        gh_sponsor_title: 'Patrocinadores de GitHub',
+        gh_sponsor_desc: 'Conviértete en un Patrocinador de GitHub',
+        gh_sponsor_button: 'Patrocinar en GitHub',
+        // Crypto
+        crypto_title: 'Criptomonedas',
+        crypto_desc: 'Bitcoin u otra criptomoneda',
+        crypto_button: 'Ver Dirección de Cartera',
+        // Buy me a coffee
+        coffee_title: 'Cómprame un Café',
+        coffee_desc: 'Apoyo con un café virtual',
+        coffee_button: 'Cómprame un Café'
     },
     it: {
         title: 'Thomas Ernest',
@@ -109,25 +141,32 @@ const translations = {
         about_title: 'Su di Me',
         about_content: 'Ciao! Sono Thomas Ernest. Sono appassionato di tecnologia, apprendimento e condivisione della conoscenza con la comunità. Benvenuto nel mio spazio personale!',
         support_title: 'Supporta il Mio Lavoro',
-        support_intro: 'Se trovi il mio lavoro prezioso e desideri supportarmi, ecco vari modi in cui puoi contribuire:',
-        paypal_title: 'PayPal',
-        paypal_desc: 'Supporto tramite PayPal',
-        github_sponsors_title: 'Sponsor GitHub',
-        github_sponsors_desc: 'Diventa uno Sponsor GitHub',
-        crypto_title: 'Criptovalute',
-        crypto_desc: 'Bitcoin o altre criptovalute',
-        coffee_title: 'Comprammi un Caffè',
-        coffee_desc: 'Supporto con un caffè virtuale',
-        donate_button: 'Dona tramite PayPal',
-        sponsor_button: 'Sponsorizza su GitHub',
-        crypto_button: 'Visualizza Indirizzo Portafoglio',
-        coffee_button: 'Comprammi un Caffè',
-        thank_you_title: 'Grazie! 🙏',
+        support_intro: 'Se trovi il mio lavoro prezioso e desideri supportarmi, ecco vari modi in cui puoi contribuire:',        thank_you_title: 'Grazie! 🙏',
         thank_you_content1: 'Ogni contributo, per quanto piccolo, significa molto per me. Il tuo supporto mi motiva a continuare a creare e condividere contenuti preziosi con la comunità.',
         thank_you_content2: "Che tu doni o no, sono grato della tua presenza qui. Grazie di essere parte del mio viaggio!",
         connect_title: 'Connettiti Con Me',
         connect_intro: 'Puoi trovarmi su:',
-        footer: '© 2026 Thomas Ernest. Tutti i diritti riservati.'
+        footer: '© 2026 Thomas Ernest. Tutti i diritti riservati.',
+        // Paypal
+        paypal_title: 'PayPal',
+        paypal_desc: 'Supporto tramite PayPal',
+        paypal_button: 'Dona tramite PayPal',
+        // Stripe
+        stripe_title: 'Stripe',
+        stripe_desc: 'Supporto tramite Stripe',
+        stripe_button: 'Dona tramite Stripe',
+        // Github sponsor
+        gh_sponsor_title: 'Sponsor GitHub',
+        gh_sponsor_desc: 'Diventa uno Sponsor GitHub',
+        gh_sponsor_button: 'Sponsorizza su GitHub',
+        // Crypto
+        crypto_title: 'Criptovalute',
+        crypto_desc: 'Bitcoin o altre criptovalute',
+        crypto_button: 'Visualizza Indirizzo Portafoglio',
+        // Buy me a coffee
+        coffee_title: 'Comprammi un Caffè',
+        coffee_desc: 'Supporto con un caffè virtuale',
+        coffee_button: 'Comprammi un Caffè'
     },
     pl: {
         title: 'Thomas Ernest',
@@ -136,24 +175,32 @@ const translations = {
         about_content: 'Cześć! Jestem Thomas Ernest. Jestem pasjonuję się technologią, nauką i dzieleniem się wiedzą ze społecznością. Witaj w mojej przestrzeni osobistej!',
         support_title: 'Wesprzyj Moją Pracę',
         support_intro: 'Jeśli uważasz moją pracę za cenną i chciałbyś mnie wesprzeć, oto różne sposoby, w jakie możesz wnieść wkład:',
-        paypal_title: 'PayPal',
-        paypal_desc: 'Wsparcie przez PayPal',
-        github_sponsors_title: 'Sponsorzy GitHub',
-        github_sponsors_desc: 'Zostań Sponsorem GitHub',
-        crypto_title: 'Kryptowaluty',
-        crypto_desc: 'Bitcoin lub inne kryptowaluty',
-        coffee_title: 'Kup Mi Kawę',
-        coffee_desc: 'Wsparcie wirtualną kawą',
-        donate_button: 'Wesprzyj przez PayPal',
-        sponsor_button: 'Wspomóż na GitHub',
-        crypto_button: 'Wyświetl Adres Portfela',
-        coffee_button: 'Kup Mi Kawę',
         thank_you_title: 'Dziękuję! 🙏',
         thank_you_content1: 'Każda wpłata, niezależnie od wielkości, wiele dla mnie znaczy. Twoje wsparcie motywuje mnie do dalszego tworzenia i dzielenia się cenną treścią ze społecznością.',
         thank_you_content2: "Niezależnie od tego, czy wpłacisz, czy nie, jestem wdzięczny za Twoją obecność tutaj. Dziękuję za bycie częścią mojej podróży!",
         connect_title: 'Połącz Się Ze Mną',
         connect_intro: 'Możesz mnie znaleźć na:',
-        footer: '© 2026 Thomas Ernest. Wszystkie prawa zastrzeżone.'
+        footer: '© 2026 Thomas Ernest. Wszystkie prawa zastrzeżone.',
+        // Paypal
+        paypal_title: 'PayPal',
+        paypal_desc: 'Wsparcie przez PayPal',
+        paypal_button: 'Wesprzyj przez PayPal',
+        // Stripe
+        stripe_title: 'Stripe',
+        stripe_desc: 'Wsparcie przez Stripe',
+        stripe_button: 'Wesprzyj przez Stripe',
+        // Github sponsor
+        gh_sponsor_title: 'Sponsorzy GitHub',
+        gh_sponsor_desc: 'Zostań Sponsorem GitHub',
+        gh_sponsor_button: 'Wspomóż na GitHub',
+        // Crypto
+        crypto_title: 'Kryptowaluty',
+        crypto_desc: 'Bitcoin lub inne kryptowaluty',
+        crypto_button: 'Wyświetl Adres Portfela',
+        // Buy me a coffee
+        coffee_title: 'Kup Mi Kawę',
+        coffee_desc: 'Wsparcie wirtualną kawą',
+        coffee_button: 'Kup Mi Kawę'
     },
     ro: {
         title: 'Thomas Ernest',
@@ -162,23 +209,31 @@ const translations = {
         about_content: 'Salut! Sunt Thomas Ernest. Sunt pasionat de tehnologie, învățare și partajarea cunoștințelor cu comunitatea. Bine ati venit în spațiul meu personal!',
         support_title: 'Sprijinați Munca Mea',
         support_intro: 'Dacă găsești munca mea valoroasă și dorești să mă sprijini, iată diferite moduri în care poți contribui:',
-        paypal_title: 'PayPal',
-        paypal_desc: 'Suport prin PayPal',
-        github_sponsors_title: 'Sponsori GitHub',
-        github_sponsors_desc: 'Deveniți un Sponsor GitHub',
-        crypto_title: 'Criptomonede',
-        crypto_desc: 'Bitcoin sau alte criptomonede',
-        coffee_title: 'Cumpărați-mi un Caf',
-        coffee_desc: 'Sprijin cu o cafea virtuală',
-        donate_button: 'Donați prin PayPal',
-        sponsor_button: 'Fiți sponsor pe GitHub',
-        crypto_button: 'Vizualizați Adresa Portofelului',
-        coffee_button: 'Cumpărați-mi un Caf',
         thank_you_title: 'Mulțumesc! 🙏',
         thank_you_content1: 'Fiecare contribuție, indiferent de mărime, înseamnă mult pentru mine. Sprijinul tău mă motivează să continui să creez și să impart conținut valoros cu comunitatea.',
         thank_you_content2: "Indiferent dacă donezi sau nu, sunt recunoscător pentru prezența ta aici. Mulțumesc că faci parte din călătoria mea!",
         connect_title: 'Conecteaza-te Cu Mine',
         connect_intro: 'Mă poți găsi pe:',
-        footer: '© 2026 Thomas Ernest. Toate drepturile rezervate.'
+        footer: '© 2026 Thomas Ernest. Toate drepturile rezervate.',
+        // Paypal
+        paypal_title: 'PayPal',
+        paypal_desc: 'Suport prin PayPal',
+        paypal_button: 'Donați prin PayPal',
+        // Stripe
+        stripe_title: 'Stripe',
+        stripe_desc: 'Suport prin Stripe',
+        stripe_button: 'Donați prin Stripe',
+        // Github sponsor
+        gh_sponsor_title: 'Sponsori GitHub',
+        gh_sponsor_desc: 'Deveniți un Sponsor GitHub',
+        gh_sponsor_button: 'Fiți sponsor pe GitHub',
+        // Crypto
+        crypto_title: 'Criptomonede',
+        crypto_desc: 'Bitcoin sau alte criptomonede',
+        crypto_button: 'Vizualizați Adresa Portofelului',
+        // Buy me a coffee
+        coffee_title: 'Cumpărați-mi un Caf',
+        coffee_desc: 'Sprijin cu o cafea virtuală',
+        coffee_button: 'Cumpărați-mi un Caf'
     }
 };
