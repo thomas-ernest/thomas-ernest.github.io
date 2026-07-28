@@ -18,11 +18,12 @@ const translations = {
         // Wero
         wero_title: 'Wero',
         wero_desc: 'Support via Wero',
-        wero_button: 'Donate via Wero',
+        wero_qr_button: 'Donate via Wero (QR Code)',
         // Paypal
         paypal_title: 'PayPal',
         paypal_desc: 'Support via PayPal',
         paypal_button: 'Donate via PayPal',
+        paypal_qr_button: 'Donate via PayPal (QR Code)',
         // Stripe
         stripe_title: 'Stripe',
         stripe_desc: 'Support via Stripe',
@@ -59,10 +60,11 @@ const translations = {
         // Wero
         wero_title: 'Wero',
         wero_desc: 'Soutien via Wero',
-        wero_button: 'Donner via Wero',
+        wero_qr_button: 'Donner via Wero (QR Code)',
         // Paypal
         paypal_title: 'PayPal',
         paypal_desc: 'Soutien via PayPal',
+        paypal_qr_button: 'Donner via PayPal (QR Code)',
         paypal_button: 'Donner via PayPal',
         // Stripe
         stripe_title: 'Stripe',
@@ -100,10 +102,11 @@ const translations = {
         // Wero
         wero_title: 'Wero',
         wero_desc: 'Unterstützung via Wero',
-        wero_button: 'Spenden via Wero',
+        wero_qr_button: 'Spenden via Wero (QR-Code)',
         // Paypal
         paypal_title: 'PayPal',
         paypal_desc: 'Unterstützung via PayPal',
+        paypal_qr_button: 'Spenden via PayPal (QR-Code)',
         paypal_button: 'Spenden via PayPal',
         // Stripe
         stripe_title: 'Stripe',
@@ -141,10 +144,11 @@ const translations = {
         // Wero
         wero_title: 'Wero',
         wero_desc: 'Apoyo a través de Wero',
-        wero_button: 'Donar a través de Wero',
+        wero_qr_button: 'Donar a través de Wero (Código QR)',
         // Paypal
         paypal_title: 'PayPal',
         paypal_desc: 'Apoyo a través de PayPal',
+        paypal_qr_button: 'Donar a través de PayPal (Código QR)',
         paypal_button: 'Donar a través de PayPal',
         // Stripe
         stripe_title: 'Stripe',
@@ -182,10 +186,11 @@ const translations = {
         // Wero
         wero_title: 'Wero',
         wero_desc: 'Supporto tramite Wero',
-        wero_button: 'Dona tramite Wero',
+        wero_qr_button: 'Dona tramite Wero (Codice QR)',
         // Paypal
         paypal_title: 'PayPal',
         paypal_desc: 'Supporto tramite PayPal',
+        paypal_qr_button: 'Dona tramite PayPal (Codice QR)',
         paypal_button: 'Dona tramite PayPal',
         // Stripe
         stripe_title: 'Stripe',
@@ -223,10 +228,11 @@ const translations = {
         // Wero
         wero_title: 'Wero',
         wero_desc: 'Wsparcie przez Wero',
-        wero_button: 'Wesprzyj przez Wero',
+        wero_qr_button: 'Wesprzyj przez Wero (Kod QR)',
         // Paypal
         paypal_title: 'PayPal',
         paypal_desc: 'Wsparcie przez PayPal',
+        paypal_qr_button: 'Wesprzyj przez PayPal (Kod QR)',
         paypal_button: 'Wesprzyj przez PayPal',
         // Stripe
         stripe_title: 'Stripe',
@@ -264,10 +270,11 @@ const translations = {
         // Wero
         wero_title: 'Wero',
         wero_desc: 'Suport prin Wero',
-        wero_button: 'Donați prin Wero',
+        wero_qr_button: 'Donați prin Wero (Cod QR)',
         // Paypal
         paypal_title: 'PayPal',
         paypal_desc: 'Suport prin PayPal',
+        paypal_qr_button: 'Donați prin PayPal (Cod QR)',
         paypal_button: 'Donați prin PayPal',
         // Stripe
         stripe_title: 'Stripe',
