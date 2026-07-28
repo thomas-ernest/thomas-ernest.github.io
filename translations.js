@@ -15,6 +15,10 @@ const translations = {
         connect_title: 'Connect With Me',
         connect_intro: 'You can find me on:',
         footer: '© 2026 Thomas Ernest. All rights reserved.',
+        // Wero
+        wero_title: 'Wero',
+        wero_desc: 'Support via Wero',
+        wero_button: 'Donate via Wero',
         // Paypal
         paypal_title: 'PayPal',
         paypal_desc: 'Support via PayPal',
@@ -52,6 +56,10 @@ const translations = {
         connect_title: 'Restez Connecté',
         connect_intro: 'Vous pouvez me trouver sur:',
         footer: '© 2026 Thomas Ernest. Tous droits réservés.',
+        // Wero
+        wero_title: 'Wero',
+        wero_desc: 'Soutien via Wero',
+        wero_button: 'Donner via Wero',
         // Paypal
         paypal_title: 'PayPal',
         paypal_desc: 'Soutien via PayPal',
@@ -89,6 +97,10 @@ const translations = {
         connect_title: 'Bleiben Sie Verbunden',
         connect_intro: 'Sie können mich hier finden:',
         footer: '© 2026 Thomas Ernest. Alle Rechte vorbehalten.',
+        // Wero
+        wero_title: 'Wero',
+        wero_desc: 'Unterstützung via Wero',
+        wero_button: 'Spenden via Wero',
         // Paypal
         paypal_title: 'PayPal',
         paypal_desc: 'Unterstützung via PayPal',
@@ -126,6 +138,10 @@ const translations = {
         connect_title: 'Conéctate Conmigo',
         connect_intro: 'Puedes encontrarme en:',
         footer: '© 2026 Thomas Ernest. Todos los derechos reservados.',
+        // Wero
+        wero_title: 'Wero',
+        wero_desc: 'Apoyo a través de Wero',
+        wero_button: 'Donar a través de Wero',
         // Paypal
         paypal_title: 'PayPal',
         paypal_desc: 'Apoyo a través de PayPal',
@@ -163,6 +179,10 @@ const translations = {
         connect_title: 'Connettiti Con Me',
         connect_intro: 'Puoi trovarmi su:',
         footer: '© 2026 Thomas Ernest. Tutti i diritti riservati.',
+        // Wero
+        wero_title: 'Wero',
+        wero_desc: 'Supporto tramite Wero',
+        wero_button: 'Dona tramite Wero',
         // Paypal
         paypal_title: 'PayPal',
         paypal_desc: 'Supporto tramite PayPal',
@@ -200,6 +220,10 @@ const translations = {
         connect_title: 'Połącz Się Ze Mną',
         connect_intro: 'Możesz mnie znaleźć na:',
         footer: '© 2026 Thomas Ernest. Wszystkie prawa zastrzeżone.',
+        // Wero
+        wero_title: 'Wero',
+        wero_desc: 'Wsparcie przez Wero',
+        wero_button: 'Wesprzyj przez Wero',
         // Paypal
         paypal_title: 'PayPal',
         paypal_desc: 'Wsparcie przez PayPal',
@@ -237,6 +261,10 @@ const translations = {
         connect_title: 'Conecteaza-te Cu Mine',
         connect_intro: 'Mă poți găsi pe:',
         footer: '© 2026 Thomas Ernest. Toate drepturile rezervate.',
+        // Wero
+        wero_title: 'Wero',
+        wero_desc: 'Suport prin Wero',
+        wero_button: 'Donați prin Wero',
         // Paypal
         paypal_title: 'PayPal',
         paypal_desc: 'Suport prin PayPal',
