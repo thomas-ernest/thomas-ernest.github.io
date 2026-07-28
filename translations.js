@@ -48,7 +48,7 @@ const translations = {
         about_content_2: 'En dehors du travail, la course à pied me permet de déconnecter des écrans, de me vider la tête et de laisser mes idées se réorganiser. Je participe à des courses et des trails officiels, peut-être pour repousser mes limites, peut-être pour collectionner des t-shirts et des médailles.',
         about_content_3: 'L’Europe est plus mon chez-moi que n’importe quelle frontière, et voyager à travers l’Europe nourrit mon identité.',
         support_title: 'Soutenir Mon Travail',
-        support_intro_1: 'Arte est ma chaîne de prédilection, et j’ai même maintenu l’extension Kodi Arte+7 active, mêlant culture, géopolitique et code à ma façon.',
+        support_intro_1: 'Arte est ma chaîne de prédilection, et je maintiens l’extension Kodi Arte+7 active, mêlant culture, géopolitique et code à ma façon.',
         support_intro_2: 'Si vous trouvez mon travail précieux et souhaitez me soutenir, voici différentes façons de contribuer:',
         thank_you_title: 'Merci! 🙏',
         thank_you_content1: 'Chaque contribution, peu importe la taille, est très importante pour moi. Votre soutien me motive à continuer à créer et à partager du contenu précieux avec la communauté.',
